@@ -1,6 +1,16 @@
+:root {
+    --primary: #192F4D;
+    --primary-2: #215B87;
+    --accent: #B29756;
+    --white: #FFFFFF;
+    --muted: #9FB0C2;
+    --container: 1100px;
+    --radius: 12px;
+}
 *{margin: 0;padding: 0;box-sizing: border-box;}
 body {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;  
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background: linear-gradient(180deg, var(--primary), var(--primary-2));
+  min-height: 100svh;
 }
