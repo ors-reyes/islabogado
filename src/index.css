@@ -1,17 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
-    --primary: #192F4D;
-    --primary-2: #215B87;
-    --accent: #B29756;
-    --white: #FFFFFF;
-    --muted: #9FB0C2;
-    --container: 1100px;
-    --radius: 12px;
+  --primary: #192f4d;
+  --primaryDark: #0f1c2e;
+  --primary80: rgba(25, 47, 77, 0.8);
+  --primary-2: #215b87;
+  --fondoGradiente: linear-gradient(180deg, var(--primary), var(--primary-2));
+  --accent: #b29756;
+  --accentDark: #685834;
+  --white: #ffffff;
+  --muted: #9fb0c2;
+  --container: 1100px;
+  --radius: 12px;
 }
-*{margin: 0;padding: 0;box-sizing: border-box;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* max-width: 1200px;
+      margin: auto; */
+}
 body {
   font-family: "Exo", sans-serif;
   color: rgba(255, 255, 255, 0.87);
-  background: linear-gradient(180deg, var(--primary), var(--primary-2));
+  /* background: linear-gradient(180deg, var(--primary), var(--primary-2)); */
+  background: var(--fondoGradiente);
   min-height: 100svh;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.relleno {
+  width: 100%;
+  height: 100vh;
+}
+button {
+  font-family: "Exo", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.gold {
+  background: var(--accent);
+  border: 1px solid #c3c3c3;
+  &:hover {
+    background: var(--accentDark);
+    color: white;
+  }
+}
+.blue {
+  background: var(--primary);
+  border: 1px solid #c3c3c3;
+  color: white;
+  &:hover {
+    background: var(--primaryDark);
+    color: white;
+  }
 }
