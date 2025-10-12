@@ -21,12 +21,8 @@
             max-width: 860px;
         }
         .hero-button{
-            margin-top: 20px;
             display: flex;
             justify-content: space-evenly;
-            button{
-                padding: 10px 10px;
-            }
         }
     }
     .hero-Text-bottom{

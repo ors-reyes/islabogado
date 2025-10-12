@@ -4,8 +4,7 @@ import "./home.css"
 const Hero = () => {
     const navigate = useNavigate()
     const handleTerreno =()=>{
-        navigate('/terrenos')
-        
+        navigate('/terrenos')        
     }
     const handleUbicacion =()=>{
         navigate('/ubicacion')

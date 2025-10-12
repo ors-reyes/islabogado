@@ -2,10 +2,21 @@ import "./footer.css"
 import { FaWhatsappSquare, FaInstagramSquare, FaFacebookSquare, FaMapMarkedAlt  } from "react-icons/fa";
 import cajaMutual from "./cajaFooter.svg"
 import logo from "../nav/logoHorizontal.svg"
-import { NavLink } from "react-router-dom"
+import { NavLink, useNavigate } from "react-router-dom"
 const Footer = () => {
+    const navigate = useNavigate()
+    const handleContacto =()=>{
+        navigate("/contactos")
+    }
   return (
     <footer>
+        <div className="footerHeader">
+            <div className="homeAmenities">
+                <h2>Coordiná una visita</h2>
+                <p>Coordiná una visita personalizada y descubrí la propuesta urbanística de Isla Bogado.</p>
+                <button style={{width:"300px"}} onClick={handleContacto} className="blue">Ver Ubicación</button>
+            </div>
+        </div>
         <div className="footer">
             <img className="cajaMutual" src={cajaMutual} alt="Caja Mutual Logo" />
             <nav className="navFooter">
