@@ -73,3 +73,13 @@ button {
     color: white;
   }
 }
+.padding{
+  padding: 50px 0;
+}
+.iconButoom{
+  cursor: pointer;
+  transition: fill 0.3s;
+  &:hover{
+    fill: var(--accent);
+  }
+}

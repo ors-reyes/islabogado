@@ -1,0 +1,44 @@
+:root{
+    --tamIcon: 45px
+}
+.homeIconAmenities{
+    padding: 50px 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    @media screen and (min-width: 768px) {
+        width: 95%;
+    }
+    @media screen and (min-width: 1024px) {
+        width: 80%;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 75%;
+    }
+    @media screen and (min-width: 2560px) {}
+    .cardIcon{
+        background: rgba(255, 255, 255, 0.1);
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        width: 190px;
+        flex-grow: 1; 
+        /* height: var(--tamIcon); */
+        .iconAme{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 8px;
+            /* width: var(--tamIcon);height: var(--tamIcon); */
+        }
+        p{
+            padding: 0 5px;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

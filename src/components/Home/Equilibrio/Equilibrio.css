@@ -24,7 +24,7 @@
         border-radius: 20px;
         display: flex;
         flex-direction: column;
-        padding: 20px;
+        padding: 20px 50px;
         /* gap: 20px; */
         align-self: center;
         @media screen and (min-width: 820px) {

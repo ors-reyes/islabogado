@@ -1,11 +1,15 @@
 import "./homeAmenities.css"
 import homeAmenaties from "../../assets/home-amenaties.jpg"
+import HomeIconAmenities from "../HomeIconAmenities/HomeIconAmenities"
+import HomeVideo from "../../assets/Isla_Bogado.mp4"
+// import HomeVideo from "../../assets/IslaBogado.mp4"
 const HomeAmenities = () => {
   return (
     <div>
         <div className="homeAmenities">
             <h2>Amenities</h2>
             <p>Todo lo que necesitás para una vida cómoda y segura, dentro del barrio.</p>
+            <HomeIconAmenities/>
             <img src={homeAmenaties} alt="Amenities"/>
         </div>
         <ul className="homeAmenities">
@@ -20,6 +24,10 @@ const HomeAmenities = () => {
                 - Estacionamientos para visitas
             </li>
         </ul>
+        <video className="homeVideo homeAmenities" src={HomeVideo} 
+            controls 
+            muted 
+        />
     </div>
   )
 }

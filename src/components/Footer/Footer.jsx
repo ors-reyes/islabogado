@@ -8,6 +8,22 @@ const Footer = () => {
     const handleContacto =()=>{
         navigate("/contactos")
     }
+    const handleWhatsAppClick = () => {
+    const url = 'https://wa.me/+595974522000/?text=¡Hola!%20Quiero%20información.';
+    window.open(url, '_blank');
+  };
+    const handleInstagramClick = () => {
+    const url = 'https://www.instagram.com/islabogadobarriocerrado/';
+    window.open(url, '_blank');
+  };
+    const handleFacebookClick = () => {
+    const url = 'https://www.facebook.com/profile.php?id=61582009595119';
+    window.open(url, '_blank');
+  };
+    const handleMapsClick = () => {
+    const url = 'https://maps.app.goo.gl/1s38EbWqY7UYE3Pp8';
+    window.open(url, '_blank');
+  };
   return (
     <footer>
         <div className="footerHeader">
@@ -32,15 +48,16 @@ const Footer = () => {
             </nav>
             <div className="redes-Footer">
                 <div className="redes">
-                    <FaWhatsappSquare  size={30}/>
-                    <FaInstagramSquare  size={30}/>
-                    <FaFacebookSquare   size={30}/>
+                    
+                    <FaWhatsappSquare className="iconButoom" onClick={handleWhatsAppClick} size={30} fill="white"/>
+                    <FaInstagramSquare className="iconButoom" onClick={handleInstagramClick} size={30} fill="white"/>
+                    <FaFacebookSquare className="iconButoom" onClick={handleFacebookClick} size={30} fill="white"/>
                 </div>
                 <div className="number">
                     <NavLink to={"tel:+595981751986"} >+595 974 522 000</NavLink>
                     <p>ventas@islabogado.com</p>
                 </div>
-                <FaMapMarkedAlt     size={100}/>
+                <FaMapMarkedAlt className="iconButoom" onClick={handleMapsClick} size={100} fill="white"/>
             </div>
         </div>
         <div className="copy">
