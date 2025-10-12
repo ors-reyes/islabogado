@@ -1,5 +1,5 @@
 import "./footer.css"
-import { FaWhatsappSquare, FaInstagramSquare, FaFacebookSquare, FaMapMarkedAlt  } from "react-icons/fa";
+import { FaWhatsappSquare, FaInstagramSquare, FaFacebookSquare, FaMapMarkedAlt, FaArrowAltCircleUp  } from "react-icons/fa";
 import cajaMutual from "./cajaFooter.svg"
 import logo from "../nav/logoHorizontal.svg"
 import { NavLink, useNavigate } from "react-router-dom"
@@ -24,6 +24,9 @@ const Footer = () => {
     const url = 'https://maps.app.goo.gl/1s38EbWqY7UYE3Pp8';
     window.open(url, '_blank');
   };
+  const gotop = ()=>{
+            window.scrollTo(0,0)
+    }
   return (
     <footer>
         <div className="footerHeader">
@@ -67,6 +70,9 @@ const Footer = () => {
                 <p>© 2023 Barrio Cerrado Isla Bogado. Todos los derechos reservados.</p>
             </div>
         </div>
+        <div className="goTop" onClick={gotop}>
+                    <FaArrowAltCircleUp   size={30}/>
+                    </div>
     </footer>
   )
 }
