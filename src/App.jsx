@@ -5,6 +5,7 @@ import NavBar from "./components/nav/NavBar"
 import Ubicacion from "./components/Ubicacion/Ubicacion"
 import Amenidades from "./components/Amenidades/Amenidades"
 import Terrenos from "./components/Terrenos/Terrenos"
+import Footer from "./components/Footer/Footer"
 
 const App = () => {  
   return (
@@ -17,7 +18,7 @@ const App = () => {
         <Route path="/amenidades" element={<Amenidades/>} />
         <Route path="/terrenos" element={<Terrenos/>} />
       </Routes>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   )
 }

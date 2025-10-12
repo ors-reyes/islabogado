@@ -3,9 +3,6 @@ const Terrenos = () => {
   return (
     <div>
       <h1>Terrenos</h1>
-      <div className="relleno"></div>
-      <div id="ver"></div>
-      <div className="relleno"></div>
     </div>
   )
 }
