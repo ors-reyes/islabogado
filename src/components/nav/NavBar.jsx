@@ -31,7 +31,6 @@ const NavBar = () => {
                 <NavLink  to={"/contactos"} className="navItem">
                     <div  onClick={menuActive}>Contacto</div>
                 </NavLink>
-                {/* <object className='rs' type='image/svg+xml' data='./redes.svg'></object> */}
             </div>
         </div>
         <div id="home"></div>

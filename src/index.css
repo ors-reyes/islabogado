@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
     --primary: #192F4D;
     --primary-2: #215B87;
@@ -9,7 +10,7 @@
 }
 *{margin: 0;padding: 0;box-sizing: border-box;}
 body {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;  
+  font-family: "Exo", sans-serif;
   color: rgba(255, 255, 255, 0.87);
   background: linear-gradient(180deg, var(--primary), var(--primary-2));
   min-height: 100svh;
