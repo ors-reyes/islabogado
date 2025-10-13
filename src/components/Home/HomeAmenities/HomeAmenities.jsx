@@ -2,7 +2,6 @@ import "./homeAmenities.css"
 import homeAmenaties from "../../assets/home-amenaties.jpg"
 import HomeIconAmenities from "../HomeIconAmenities/HomeIconAmenities"
 import HomeVideo from "../../assets/Isla_Bogado.mp4"
-// import HomeVideo from "../../assets/IslaBogado.mp4"
 const HomeAmenities = () => {
   return (
     <div>
