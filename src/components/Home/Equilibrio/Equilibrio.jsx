@@ -10,7 +10,7 @@ const Equilibrio = () => {
     <div className="equilibrio">
         <div className="equilibrio-text">
             <h2>Un equilibrio perfecto</h2>
-            <p>Isla Bogado está ubicado en Luque, una zona de alto crecimiento y proyección. El proyecto ofrece un balance entre tranquilidad y conectividad, con una infraestructura diseñada para brindar seguridad, sostenibilidad y calidad de vida.</p>
+            <p>Isla Bogado está ubicado en Luque, una zona de alto crecimiento y proyección. El desarrollo ofrece un balance entre tranquilidad y conectividad, con una infraestructura diseñada para brindar seguridad, sostenibilidad y calidad de vida.</p>
             <p>Seguridad 24 hs · Parques · Piscina · Canchas · Gimnasio</p>
         </div>
         <div className="equilibrio-card">

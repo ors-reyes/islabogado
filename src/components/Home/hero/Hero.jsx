@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <div className="hero">
         <div className="hero-Text">
-          <p>Un desarrollo residencial premium en Luque: seguridad, diseño y amenities pensados para una vida de confort.</p>
+          <p>Un desarrollo residencial en Luque que te ofrece seguridad, diseño y amenities pensados para una vida de confort..</p>
           <div className="hero-button">
             <button onClick={handleTerreno} className="gold">Ver terrenos disponibles</button>
             <button onClick={handleUbicacion} className="blue">Ver Ubicación</button>

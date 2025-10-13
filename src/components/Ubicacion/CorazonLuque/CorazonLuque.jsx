@@ -16,10 +16,10 @@ const CorazonLuque = () => {
           disfrutar de un entorno residencial seguro y natural, sin alejarse de
           los principales puntos de conexión.
         </p>
-        <p>
+        {/* <p>
           Un entorno residencial seguro y natural, sin alejarse de los
           principales puntos de conexión.
-        </p>
+        </p> */}
       </div>
       <div className="equilibrio-card">
         <h2>Todo a tu alcance</h2>
