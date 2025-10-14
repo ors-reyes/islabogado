@@ -1,9 +1,3 @@
-/* ===== BASE (Mobile First) ===== */
-body {
-  background-color: #123a6d;
-  font-family: 'Poppins', sans-serif;
-}
-
 .galeria {
   padding: 40px 20px;
   max-width: 1200px;
@@ -37,6 +31,7 @@ body {
   object-fit: cover;
   border-radius: 16px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .grid img:hover {
