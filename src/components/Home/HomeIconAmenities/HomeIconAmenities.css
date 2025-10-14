@@ -1,6 +1,3 @@
-:root{
-    --tamIcon: 45px
-}
 .homeIconAmenities{
     padding: 50px 0;
     width: 100%;
@@ -25,7 +22,6 @@
         border-radius: 5px;
         width: 190px;
         flex-grow: 1; 
-        /* height: var(--tamIcon); */
         .iconAme{
             display: flex;
             justify-content: center;
@@ -33,7 +29,6 @@
             border-radius: 5px;
             background: rgba(255, 255, 255, 0.1);
             padding: 8px;
-            /* width: var(--tamIcon);height: var(--tamIcon); */
         }
         p{
             padding: 0 5px;

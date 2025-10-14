@@ -20,7 +20,7 @@ const HomeAmenities = () => {
                 - Sistema independiente de agua mediante pozo artesiano
             </li>
             <li>
-                - Estacionamientos para visitas
+                - Estacionamiento para visitas
             </li>
         </ul>
         <video className="homeVideo homeAmenities" src={HomeVideo} 

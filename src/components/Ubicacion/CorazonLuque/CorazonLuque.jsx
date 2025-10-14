@@ -34,7 +34,7 @@ const CorazonLuque = () => {
             <div className="iconAme">
               <FaGasPump  size={25} />
             </div>
-            <p>Estación de servicios</p>
+            <p>Estación de servicio</p>
           </div>
           <div className="cardIcon">
             <div className="iconAme">

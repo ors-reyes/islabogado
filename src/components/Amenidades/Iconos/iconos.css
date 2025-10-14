@@ -1,0 +1,59 @@
+.iconAmenities{
+    padding: 50px 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    @media screen and (min-width: 768px) {
+        width: 95%;
+    }
+    @media screen and (min-width: 1024px) {
+        width: 100%;
+    }    
+    .cardIconAme{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        width: 200px;
+        flex-grow: 1;         
+        @media screen and (min-width: 845px) {
+            flex-grow: 0;
+            flex-basis: 25%;
+
+        }
+        @media screen and (min-width: 1024px) {}
+        @media screen and (min-width: 1440px) {}
+        @media screen and (min-width: 2560px) {}
+        .conteIcon{
+            background: rgba(255, 255, 255, 0.1);
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border-radius: 5px;
+            .iconAme2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+                background: rgba(255, 255, 255, 0.1);
+                padding: 8px;
+            }
+            p{
+                padding: 0 5px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+        .iconDescrip{
+            border-radius: 5px;
+            width: 100%;
+            height: 110px;
+            padding: 10px;
+            margin-top: 10px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+    }
+}

@@ -5,7 +5,7 @@ const Ubicacion = () => {
   return (
     <div className="ubicacion">
       <h1 style={{ paddingTop: "100px", width: "80%", margin: "auto" }}>
-        Unicación <span style={{ color: "var(--accent)" }}>ESTRATÉGICA</span>
+        Ubicación <span style={{ color: "var(--accent)" }}>ESTRATÉGICA</span>
       </h1>
       <p style={{ width: "80%", margin: "auto", paddingTop: "20px" }}>
         Isla Bogado está ubicado en Luque, con rápida conexión hacia Asunción y

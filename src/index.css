@@ -77,6 +77,13 @@ button {
 .padding{
   padding: 50px 0;
 }
+.padding20{
+  padding: 10px 0;
+}
+.secc80{
+  width: 80%;
+  margin: auto;
+}
 .iconButoom{
   cursor: pointer;
   transition: fill 0.3s;

@@ -16,9 +16,9 @@ const Equilibrio = () => {
         <div className="equilibrio-card">
             <h2>123 Terrenos</h2>
             <p>desde <span style={{fontWeight:"bold"}}>Gs. 220.000.000</span></p>
-            <p>Financiacón propia en guaranies</p>
+            <p>Financiación propia en guaraníes</p>
             <p>hasta <span style={{fontWeight:"bold"}}>20 años</span>.</p>
-            <button onClick={handleContacto} className="gold">Consultar Financiacón</button>
+            <button onClick={handleContacto} className="gold">Consultá Financiación</button>            
         </div>
     </div>
   )

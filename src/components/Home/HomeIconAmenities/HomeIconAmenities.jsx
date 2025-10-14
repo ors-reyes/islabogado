@@ -42,7 +42,7 @@ const HomeIconAmenities = () => {
             <div className="iconAme">
                 <GiTennisCourt   size={25}/>
             </div>
-            <p>Cancha de padel</p>
+            <p>Cancha de pádel</p>
         </div>
         <div className="cardIcon">
             <div className="iconAme">
