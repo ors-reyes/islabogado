@@ -14,228 +14,26 @@
 .textManzana{font-size: 2em;}
 .textInput{font-size: 2em; font-weight: bolder;}
 .circle{fill: #b29756;stroke:black;stroke-width:3;cx: 300;cy: 300;r: 30;}
+.circle2{fill: #b29756;stroke:black;stroke-width:3;cx: 850;cy: 300;r: 30;}
+
+.fnd2{x: 750px;y: 200px;width: 230px;height: 250px;fill: white;rx: 10;ry: 10;}
 .man {opacity: 0;cursor: pointer;
   &:hover {fill: #b29756;opacity: 1;}
 }
-.l01:hover + .lot01 {opacity: 1;}
-.l02:hover + .lot02 {opacity: 1;}
-.l03:hover + .lot03 {opacity: 1;}
-.l04:hover + .lot04 {opacity: 1;}
-.l05:hover + .lot05 {opacity: 1;}
-.l06:hover + .lot06 {opacity: 1;}
-.l07:hover + .lot07 {opacity: 1;}
-.l08:hover + .lot08 {opacity: 1;}
-.l09:hover + .lot09 {opacity: 1;}
-.l10:hover + .lot10 {opacity: 1;}
-.l11:hover + .lot11 {opacity: 1;}
-.l12:hover + .lot12 {opacity: 1;}
-.l13:hover + .lot13 {opacity: 1;}
-.l14:hover + .lot14 {opacity: 1;}
-/* .Manzana01 {
-} */
-
-.opacity50 {
-  opacity: 0.1;
-}
-
-
-.st18 {
-  fill: #00009a;
-}
-.st19 {
-  fill: #0000ab;
-}
-.st20 {
-  fill: #0000bc;
-}
-.st21 {
-  fill: #0000cd;
-}
-.st22 {
-  fill: #0000dd;
-}
-.st23 {
-  fill: #0000ee;
-}
-.st24 {
-  fill: #0000ff;
-}
-
-.st25 {
-  fill: #ff00ff;
-}
-.st26 {
-  fill: #f700f7;
-}
-.st27 {
-  fill: #ef00ef;
-}
-.st28 {
-  fill: #e800e8;
-}
-.st29 {
-  fill: #e000e0;
-}
-.st30 {
-  fill: #d800d8;
-}
-.st31 {
-  fill: #d000d0;
-}
-.st32 {
-  fill: #c900c9;
-}
-.st33 {
-  fill: #c100c1;
-}
-.st34 {
-  fill: #b900b9;
-}
-.st35 {
-  fill: #b100b1;
-}
-.st36 {
-  fill: #aa00aa;
-}
-.st37 {
-  fill: #a200a2;
-}
-.st38 {
-  fill: #9a009a;
-}
-.st39 {
-  fill: #00ffff;
-}
-.st40 {
-  fill: #00f5f5;
-}
-.st41 {
-  fill: #00ebeb;
-}
-.st42 {
-  fill: #009a9a;
-}
-.st43 {
-  fill: #00a4a4;
-}
-.st44 {
-  fill: #00aeae;
-}
-.st45 {
-  fill: #00e1e1;
-}
-.st46 {
-  fill: #00d7d7;
-}
-.st47 {
-  fill: #00cdcd;
-}
-.st48 {
-  fill: #00c2c2;
-}
-.st49 {
-  fill: #00b8b8;
-}
-.st50 {
-  fill: #ffff00;
-}
-.st51 {
-  fill: #f5f500;
-}
-.st52 {
-  fill: #9a9a00;
-}
-.st53 {
-  fill: #a4a400;
-}
-.st54 {
-  fill: #aeae00;
-}
-.st55 {
-  fill: #ebeb00;
-}
-.st56 {
-  fill: #e1e100;
-}
-.st57 {
-  fill: #d7d700;
-}
-.st58 {
-  fill: #cdcd00;
-}
-.st59 {
-  fill: #c2c200;
-}
-.st60 {
-  fill: #b8b800;
-}
-
-
-
-
-.st101 {
-  fill: #669999;
-}
-.st102 {
-  fill: #3e5c5c;
-}
-.st103 {
-  fill: #426262;
-}
-.st104 {
-  fill: #456767;
-}
-.st105 {
-  fill: #496d6d;
-}
-.st106 {
-  fill: #4d7272;
-}
-.st107 {
-  fill: #629393;
-}
-.st108 {
-  fill: #5f8e8e;
-}
-.st109 {
-  fill: #5b8888;
-}
-.st110 {
-  fill: #578383;
-}
-.st111 {
-  fill: #547d7d;
-}
-.st112 {
-  fill: #507878;
-}
-.st113 {
-  fill: #66ffcc;
-}
-.st114 {
-  fill: #0fffaf;
-}
-.st115 {
-  fill: #19ffb2;
-}
-.st116 {
-  fill: #22ffb5;
-}
-.st117 {
-  fill: #2cffb9;
-}
-.st118 {
-  fill: #5cffc9;
-}
-.st119 {
-  fill: #53ffc6;
-}
-.st120 {
-  fill: #49ffc2;
-}
-.st121 {
-  fill: #3fffbf;
-}
-.st122 {
-  fill: #36ffbc;
-}
+.lot01,.lot02,.lot03,.lot04,.lot05,.lot06,.lot07,.lot08,.lot09,.lot10,.lot11,.lot12,.lot13,.lot14{
+  opacity: 0;visibility: hidden;
+}
+.l01:hover + .lot01 {opacity: 1; visibility: visible;}
+.l02:hover + .lot02 {opacity: 1; visibility: visible;}
+.l03:hover + .lot03 {opacity: 1; visibility: visible;}
+.l04:hover + .lot04 {opacity: 1; visibility: visible;}
+.l05:hover + .lot05 {opacity: 1; visibility: visible;}
+.l06:hover + .lot06 {opacity: 1; visibility: visible;}
+.l07:hover + .lot07 {opacity: 1; visibility: visible;}
+.l08:hover + .lot08 {opacity: 1; visibility: visible;}
+.l09:hover + .lot09 {opacity: 1; visibility: visible;}
+.l10:hover + .lot10 {opacity: 1; visibility: visible;}
+.l11:hover + .lot11 {opacity: 1; visibility: visible;}
+.l12:hover + .lot12 {opacity: 1; visibility: visible;}
+.l13:hover + .lot13 {opacity: 1; visibility: visible;}
+.l14:hover + .lot14 {opacity: 1; visibility: visible;}
