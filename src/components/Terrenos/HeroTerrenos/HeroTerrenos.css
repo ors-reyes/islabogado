@@ -1,0 +1,22 @@
+.hero-terrenos{
+    width: 100vw;
+    min-height: 500px;
+    height: 100svh;
+    background-image: url(../../assets/ubicacion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    .hero-Text-bottom-terrenos{        
+        bottom: 90px;
+        left: 0;
+        padding: 20px;
+        padding-right: 50px;
+        border-radius: 0 20px 0 0;
+        position: absolute;
+        background: var(--primary80);
+        h1{
+            font-size: 1.9em;
+        }
+    }    
+}

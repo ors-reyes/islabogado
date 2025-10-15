@@ -1,0 +1,11 @@
+.desde{
+    background: var(--primary80);
+    width: 100%;
+    padding: 20px 50px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    @media screen and (min-width: 820px) {
+        width: 50%;
+    }
+}
