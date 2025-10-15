@@ -48,7 +48,7 @@ const Terrenos = () => {
           Bogado.
         </h2>
       </section>
-      <section className="secc80">
+      <section className="secc80 padding">
         <Planos/>
       </section>
     </>
