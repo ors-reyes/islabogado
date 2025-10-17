@@ -26,6 +26,7 @@ const Contactos = () => {
     e.preventDefault();
     // Aquí puedes agregar la lógica para enviar el formulario
     console.log('Datos del formulario:', formData);
+    console.log('Datos del formulario:', formData.nombre);
     alert('Formulario enviado correctamente');
     
     // Resetear los campos después del envío
@@ -36,6 +37,7 @@ const Contactos = () => {
       asunto: '',
       mensaje: ''
     });
+    window.location.href=`mailto:ors2323@gmail.com?subjet=FormularioIslabogado&body=Nombre%3A%20${formData.nombre}%0ACorreo%20electr%C3%B3nico%3A%20xxxx%0ATel%C3%A9fono%3A%20xxxxx%0AMotivo%3A%20xxxx%0AMensaje%20%3A%20xxxx`
   };
 
   return (
@@ -48,7 +50,8 @@ const Contactos = () => {
             {/* Sección del formulario */}
             <section className="form-section">
               <h2>Envíanos un mensaje</h2>
-              <form onSubmit={handleSubmit}>
+              <form action="https://formsubmit.co/c63a5fc7b6331028831a50b2870f0580" method="POST">
+              {/* <form onSubmit={handleSubmit}> */}
                 <div className="form-group">
                   <label htmlFor="nombre">Nombre completo *</label>
                   <input 
