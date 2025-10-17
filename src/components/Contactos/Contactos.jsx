@@ -22,23 +22,23 @@ const Contactos = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Aquí puedes agregar la lógica para enviar el formulario
-    console.log('Datos del formulario:', formData);
-    console.log('Datos del formulario:', formData.nombre);
-    alert('Formulario enviado correctamente');
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   // Aquí puedes agregar la lógica para enviar el formulario
+  //   console.log('Datos del formulario:', formData);
+  //   console.log('Datos del formulario:', formData.nombre);
+  //   alert('Formulario enviado correctamente');
     
-    // Resetear los campos después del envío
-    setFormData({
-      nombre: '',
-      email: '',
-      telefono: '',
-      asunto: '',
-      mensaje: ''
-    });
-    window.location.href=`mailto:ors2323@gmail.com?subjet=FormularioIslabogado&body=Nombre%3A%20${formData.nombre}%0ACorreo%20electr%C3%B3nico%3A%20xxxx%0ATel%C3%A9fono%3A%20xxxxx%0AMotivo%3A%20xxxx%0AMensaje%20%3A%20xxxx`
-  };
+  //   // Resetear los campos después del envío
+  //   setFormData({
+  //     nombre: '',
+  //     email: '',
+  //     telefono: '',
+  //     asunto: '',
+  //     mensaje: ''
+  //   });
+  //   // window.location.href=`mailto:ors2323@gmail.com?subjet=FormularioIslabogado&body=Nombre%3A%20${formData.nombre}%0ACorreo%20electr%C3%B3nico%3A%20xxxx%0ATel%C3%A9fono%3A%20xxxxx%0AMotivo%3A%20xxxx%0AMensaje%20%3A%20xxxx`
+  // };
 
   return (
     <>
