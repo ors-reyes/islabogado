@@ -50,7 +50,7 @@ const Contactos = () => {
             {/* Sección del formulario */}
             <section className="form-section">
               <h2>Envíanos un mensaje</h2>
-              <form action="https://formsubmit.co/desarrolloinmobiliariocmcp@gmail.com" method="POST">
+              <form action="https://formsubmit.co/6b53ad15b848d337f3f724d70cc702166b53ad15b848d337f3f724d70cc70216" method="POST">
               {/* <form onSubmit={handleSubmit}> */}
                 <div className="form-group">
                   <label htmlFor="nombre">Nombre completo *</label>
