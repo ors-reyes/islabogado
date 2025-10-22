@@ -104,7 +104,7 @@ const Footer = () => {
           </div>
           <div className="number">
             <NavLink to={"tel:+595981751986"}>+595 974 522 000</NavLink>
-            <p>desarrolloinmobiliario@cmcp.org.py</p>
+            <p>desarrolloinmobiliariocmcp@gmail.com</p>
           </div>
           <FaMapMarkedAlt
             className="iconButoom"
