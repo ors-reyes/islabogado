@@ -18,9 +18,9 @@ const Hero = () => {
             <button onClick={handleUbicacion} className="blue">Ver Ubicación</button>
           </div>
         </div>
-        <div className="hero-Text-bottom">
+        {/* <div className="hero-Text-bottom">
           <p>Farmacia · Estación de servicio · Supermercados · Escuelas y colegios · Unidad de salud</p>
-        </div>
+        </div> */}
       </div>
   )
 }

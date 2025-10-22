@@ -34,7 +34,7 @@ const CorazonLuque = () => {
             <div className="iconAme">
               <FaGasPump  size={25} />
             </div>
-            <p>Estación de servicio</p>
+            <p>Estaciones de servicios</p>
           </div>
           <div className="cardIcon">
             <div className="iconAme">
@@ -58,7 +58,7 @@ const CorazonLuque = () => {
             <div className="iconAme">
               <FaHospitalSymbol size={25} />
             </div>
-            <p>Unidad de salud</p>
+            <p>Unidades de salud</p>
           </div>
         </div>
       </div>

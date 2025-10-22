@@ -12,8 +12,8 @@ const Terrenos = () => {
         <Financiacion />
       </section>
       <section className="padding20 secc80">
-        <h2 style={{ paddingBottom: "20px" }}>Planos disponibles</h2>
-        <p>Práctico y seguro, pensado para la comodidad de tus visitas.</p>
+        {/* <h2 style={{ paddingBottom: "20px" }}>Planos disponibles</h2>
+        <p>Práctico y seguro, pensado para la comodidad de tus visitas.</p> */}
         <h2 style={{ padding: "20px 0" }}>
           Contamos con diferentes tamaños de lotes para adaptarse a tus
           necesidades.

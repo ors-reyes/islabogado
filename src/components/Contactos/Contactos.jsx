@@ -115,7 +115,8 @@ const Contactos = () => {
                     required
                   ></textarea>
                 </div>
-                
+                <input type="hidden" name="_redirect" value="https://ors-reyes.github.io/islabogado/"></input>
+                 {/* <input type="hidden" name="_captcha" value="false"></input> */}
                 <button type="submit" className="btn-submit">Enviar mensaje</button>
               </form>
             </section>
@@ -124,7 +125,7 @@ const Contactos = () => {
             <section className="contact-info">
               <h2>Otras formas de contacto</h2>
               
-              <div className="contact-item">
+              {/* <div className="contact-item">
                 <div className="contact-icon">
                   <RiCustomerServiceFill />
                 </div>
@@ -135,7 +136,7 @@ const Contactos = () => {
                     <p className="phone-schedule">Lunes a Viernes de 8:00 a 17:00</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
               
               <div className="contact-item">
                 <div className="contact-icon">
@@ -143,7 +144,7 @@ const Contactos = () => {
                 </div>
                 <div className="contact-details">
                   <h3>Correo electrónico</h3>
-                  <p className="highlight">desarrolloinmobiliario@cmcp.org.py</p>
+                  <p className="highlight">desarrolloinmobiliariocmcp@gmail.com</p>
                   <p>Respondemos en menos de 24 horas</p>
                 </div>
               </div>
