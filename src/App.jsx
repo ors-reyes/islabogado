@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { Navigate, Route, Routes } from "react-router-dom"
 import Home from "./components/Home/Home"
 import Contactos from "./components/Contactos/Contactos"
 import NavBar from "./components/nav/NavBar"
@@ -12,7 +12,8 @@ const App = () => {
      <>
       <NavBar/>
       <Routes>
-        <Route path="/" element={<Home/>} />        
+        <Route path="/" element={<Home/>} />
+        <Route path="*" element={<Navigate to="/" />} />
         <Route path="/contactos" element={<Contactos/>} />
         <Route path="/ubicacion" element={<Ubicacion/>} />
         <Route path="/amenidades" element={<Amenidades/>} />

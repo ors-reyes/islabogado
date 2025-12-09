@@ -645,7 +645,7 @@ const Planos = () => {
             </g>
         </defs>
         <g className="Manzana01">
-            <polygon className="man l01" points="1226.1,77.4 1323.4,77.4 1320.6,39.2 1220.3,39.2 1220.4,39.8"/>
+            <polygon className="man l01 vendido" points="1226.1,77.4 1323.4,77.4 1320.6,39.2 1220.3,39.2 1220.4,39.8"/>
             <use href="#l01" x="100" y="20" className="lot01"/>
             <polygon className="man l02" points="1323.4,77.4 1226.1,77.4 1231.9,116.4 1326.2,116.4"/>
             <use href="#l02" x="100" y="20" className="lot02"/>

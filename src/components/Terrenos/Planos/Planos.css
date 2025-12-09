@@ -22,6 +22,7 @@
 }
 .lot01,.lot02,.lot03,.lot04,.lot05,.lot06,.lot07,.lot08,.lot09,.lot10,.lot11,.lot12,.lot13,.lot14{
   opacity: 0;visibility: hidden;
+  transition: all 0.3s;
 }
 .l01:hover + .lot01 {opacity: 1; visibility: visible;}
 .l02:hover + .lot02 {opacity: 1; visibility: visible;}
@@ -37,3 +38,12 @@
 .l12:hover + .lot12 {opacity: 1; visibility: visible;}
 .l13:hover + .lot13 {opacity: 1; visibility: visible;}
 .l14:hover + .lot14 {opacity: 1; visibility: visible;}
+.vendido{
+  opacity: 0.5;
+  cursor: not-allowed;
+  fill: red;
+  &:hover{
+    opacity: 0.5;
+    fill: red;
+  }
+}

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { RiCustomerServiceFill } from 'react-icons/ri';
 import { IoMdMail } from 'react-icons/io';
 import { PiMapPinLineBold } from 'react-icons/pi';
 import { FaWhatsapp } from 'react-icons/fa';
@@ -21,25 +20,6 @@ const Contactos = () => {
       [name]: value
     }));
   };
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   // Aquí puedes agregar la lógica para enviar el formulario
-  //   console.log('Datos del formulario:', formData);
-  //   console.log('Datos del formulario:', formData.nombre);
-  //   alert('Formulario enviado correctamente');
-    
-  //   // Resetear los campos después del envío
-  //   setFormData({
-  //     nombre: '',
-  //     email: '',
-  //     telefono: '',
-  //     asunto: '',
-  //     mensaje: ''
-  //   });
-  //   // window.location.href=`mailto:ors2323@gmail.com?subjet=FormularioIslabogado&body=Nombre%3A%20${formData.nombre}%0ACorreo%20electr%C3%B3nico%3A%20xxxx%0ATel%C3%A9fono%3A%20xxxxx%0AMotivo%3A%20xxxx%0AMensaje%20%3A%20xxxx`
-  // };
-
   return (
     <>
       <section className="padding secc80">
@@ -50,8 +30,7 @@ const Contactos = () => {
             {/* Sección del formulario */}
             <section className="form-section">
               <h2>Envíanos un mensaje</h2>
-              <form action="https://formsubmit.co/6b53ad15b848d337f3f724d70cc702166b53ad15b848d337f3f724d70cc70216" method="POST">
-              {/* <form onSubmit={handleSubmit}> */}
+              <form action="https://formsubmit.co/desarrolloinmobiliariocmcp@gmail.com" method="POST">              
                 <div className="form-group">
                   <label htmlFor="nombre">Nombre completo *</label>
                   <input 
@@ -115,28 +94,12 @@ const Contactos = () => {
                     required
                   ></textarea>
                 </div>
-                <input type="hidden" name="_redirect" value="https://ors-reyes.github.io/islabogado/"></input>
-                 {/* <input type="hidden" name="_captcha" value="false"></input> */}
                 <button type="submit" className="btn-submit">Enviar mensaje</button>
               </form>
             </section>
-            
-            {/* Sección de información de contacto */}
             <section className="contact-info">
               <h2>Otras formas de contacto</h2>
               
-              {/* <div className="contact-item">
-                <div className="contact-icon">
-                  <RiCustomerServiceFill />
-                </div>
-                <div className="contact-details">
-                  <h3>Teléfono</h3>
-                  <div className="phone-layout">
-                    <p className="phone-number">+595 974 522 000</p>
-                    <p className="phone-schedule">Lunes a Viernes de 8:00 a 17:00</p>
-                  </div>
-                </div>
-              </div> */}
               
               <div className="contact-item">
                 <div className="contact-icon">
